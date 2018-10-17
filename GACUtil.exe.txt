@@ -1,0 +1,45 @@
+Microsoft (R) .NET Global Assembly Cache Utility.  Version 4.0.30319.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+用法: Gacutil <命令> [ <选项> ]
+命令:
+  /i <assembly_path> [ /r <...> ] [ /f ]
+    将某个程序集安装到全局程序集缓存中。
+
+  /il <assembly_path_list_file> [ /r <...> ] [ /f ]
+    将一个或多个程序集安装到全局程序集缓存中。
+
+  /u <assembly_display_name> [ /r <...> ]
+    将某个程序集从全局程序集缓存卸载。
+
+  /ul <assembly_display_name_list_file> [ /r <...> ]
+    将一个或多个程序集从全局程序集缓存卸载。
+
+  /l [ <assembly_name> ]
+    列出通过 <assembly_name> 筛选出的全局程序集缓存
+
+  /lr [ <assembly_name> ]
+    列出全局程序集缓存以及所有跟踪引用。
+
+  /cdl
+    删除下载缓存的内容
+
+  /ldl
+    列出下载缓存的内容
+
+  /? 
+    显示详细帮助屏幕
+
+ 选项:
+  /r <reference_scheme> <reference_id> <description>
+    指定要安装(/i, /il)或卸载(/u, /ul)的跟踪引用。
+
+  /f 
+    强制重新安装程序集。
+
+  /nologo
+    取消显示徽标版权标志
+
+  /silent
+    取消显示所有输出
+

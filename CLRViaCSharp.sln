@@ -1,0 +1,235 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter01", "Chapter01", "{941B2431-6A78-429F-884B-3F628EA60C7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCLS", "TestCLS\TestCLS.csproj", "{9C21B68A-60F4-4CD8-BE35-CBF3A12C0A75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter02", "Chapter02", "{6E9608DE-B874-4A3D-B48F-5FF80D11F90E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CLR-via-C-4th-Edition-code", "CLR-via-C-4th-Edition-code", "{09E5DC78-CED1-4B77-A9FE-A2199A934028}"
+	ProjectSection(SolutionItems) = preProject
+		CLR-via-C-4th-Edition-Code\Ch01-1-SomeLibrary.cs = CLR-via-C-4th-Edition-Code\Ch01-1-SomeLibrary.cs
+		CLR-via-C-4th-Edition-Code\Ch01-1-SomeLibrary.csproj = CLR-via-C-4th-Edition-Code\Ch01-1-SomeLibrary.csproj
+		CLR-via-C-4th-Edition-Code\Ch01-2-TypeMembersToIL.cs = CLR-via-C-4th-Edition-Code\Ch01-2-TypeMembersToIL.cs
+		CLR-via-C-4th-Edition-Code\Ch01-2-TypeMembersToIL.csproj = CLR-via-C-4th-Edition-Code\Ch01-2-TypeMembersToIL.csproj
+		CLR-via-C-4th-Edition-Code\Ch02-1-SimpleProgram.cs = CLR-via-C-4th-Edition-Code\Ch02-1-SimpleProgram.cs
+		CLR-via-C-4th-Edition-Code\Ch02-1-SimpleProgram.csproj = CLR-via-C-4th-Edition-Code\Ch02-1-SimpleProgram.csproj
+		CLR-via-C-4th-Edition-Code\Ch02-2-Minimum MSCorLib.cs = CLR-via-C-4th-Edition-Code\Ch02-2-Minimum MSCorLib.cs
+		CLR-via-C-4th-Edition-Code\Ch02-2-Minimum MSCorLib.csproj = CLR-via-C-4th-Edition-Code\Ch02-2-Minimum MSCorLib.csproj
+		CLR-via-C-4th-Edition-Code\Ch02-3-AssemblyVersionInfo.cs = CLR-via-C-4th-Edition-Code\Ch02-3-AssemblyVersionInfo.cs
+		CLR-via-C-4th-Edition-Code\Ch02-3-BuildMultiFileLibrary.bat = CLR-via-C-4th-Edition-Code\Ch02-3-BuildMultiFileLibrary.bat
+		CLR-via-C-4th-Edition-Code\Ch02-3-FUT.cs = CLR-via-C-4th-Edition-Code\Ch02-3-FUT.cs
+		CLR-via-C-4th-Edition-Code\Ch02-3-RUT.cs = CLR-via-C-4th-Edition-Code\Ch02-3-RUT.cs
+		CLR-via-C-4th-Edition-Code\Ch02-4-AppUsingMultiFileLibrary.cs = CLR-via-C-4th-Edition-Code\Ch02-4-AppUsingMultiFileLibrary.cs
+		CLR-via-C-4th-Edition-Code\Ch02-4-AppUsingMultiFileLibrary.csproj = CLR-via-C-4th-Edition-Code\Ch02-4-AppUsingMultiFileLibrary.csproj
+		CLR-via-C-4th-Edition-Code\Ch03-1-AssemInfo.cs = CLR-via-C-4th-Edition-Code\Ch03-1-AssemInfo.cs
+		CLR-via-C-4th-Edition-Code\Ch04-1-Type Fundamentals.cs = CLR-via-C-4th-Edition-Code\Ch04-1-Type Fundamentals.cs
+		CLR-via-C-4th-Edition-Code\Ch04-1-Type Fundamentals.csproj = CLR-via-C-4th-Edition-Code\Ch04-1-Type Fundamentals.csproj
+		CLR-via-C-4th-Edition-Code\Ch05-1-PrimitveReferenceValueTypes.cs = CLR-via-C-4th-Edition-Code\Ch05-1-PrimitveReferenceValueTypes.cs
+		CLR-via-C-4th-Edition-Code\Ch05-1-PrimitveReferenceValueTypes.csproj = CLR-via-C-4th-Edition-Code\Ch05-1-PrimitveReferenceValueTypes.csproj
+		CLR-via-C-4th-Edition-Code\Ch06-1-TypeMembers.cs = CLR-via-C-4th-Edition-Code\Ch06-1-TypeMembers.cs
+		CLR-via-C-4th-Edition-Code\Ch06-1-TypeMembers.csproj = CLR-via-C-4th-Edition-Code\Ch06-1-TypeMembers.csproj
+		CLR-via-C-4th-Edition-Code\Ch07-1-LibraryDefiningConstant.cs = CLR-via-C-4th-Edition-Code\Ch07-1-LibraryDefiningConstant.cs
+		CLR-via-C-4th-Edition-Code\Ch07-1-LibraryDefiningConstant.csproj = CLR-via-C-4th-Edition-Code\Ch07-1-LibraryDefiningConstant.csproj
+		CLR-via-C-4th-Edition-Code\Ch07-2-AppUsingLibraryConstant.cs = CLR-via-C-4th-Edition-Code\Ch07-2-AppUsingLibraryConstant.cs
+		CLR-via-C-4th-Edition-Code\Ch07-2-AppUsingLibraryConstant.csproj = CLR-via-C-4th-Edition-Code\Ch07-2-AppUsingLibraryConstant.csproj
+		CLR-via-C-4th-Edition-Code\Ch07-3-LibraryDefiningReadOnlyField.cs = CLR-via-C-4th-Edition-Code\Ch07-3-LibraryDefiningReadOnlyField.cs
+		CLR-via-C-4th-Edition-Code\Ch07-3-LibraryDefiningReadOnlyField.csproj = CLR-via-C-4th-Edition-Code\Ch07-3-LibraryDefiningReadOnlyField.csproj
+		CLR-via-C-4th-Edition-Code\Ch07-4-AppUsingLibraryReadOnlyField.cs = CLR-via-C-4th-Edition-Code\Ch07-4-AppUsingLibraryReadOnlyField.cs
+		CLR-via-C-4th-Edition-Code\Ch07-4-AppUsingLibraryReadOnlyField.csproj = CLR-via-C-4th-Edition-Code\Ch07-4-AppUsingLibraryReadOnlyField.csproj
+		CLR-via-C-4th-Edition-Code\Ch07-5-Fields.cs = CLR-via-C-4th-Edition-Code\Ch07-5-Fields.cs
+		CLR-via-C-4th-Edition-Code\Ch07-5-Fields.csproj = CLR-via-C-4th-Edition-Code\Ch07-5-Fields.csproj
+		CLR-via-C-4th-Edition-Code\Ch08-1-Methods.cs = CLR-via-C-4th-Edition-Code\Ch08-1-Methods.cs
+		CLR-via-C-4th-Edition-Code\Ch08-1-Methods.csproj = CLR-via-C-4th-Edition-Code\Ch08-1-Methods.csproj
+		CLR-via-C-4th-Edition-Code\Ch09-1-Parameters.cs = CLR-via-C-4th-Edition-Code\Ch09-1-Parameters.cs
+		CLR-via-C-4th-Edition-Code\Ch09-1-Parameters.csproj = CLR-via-C-4th-Edition-Code\Ch09-1-Parameters.csproj
+		CLR-via-C-4th-Edition-Code\Ch10-1-Properties.cs = CLR-via-C-4th-Edition-Code\Ch10-1-Properties.cs
+		CLR-via-C-4th-Edition-Code\Ch10-1-Properties.csproj = CLR-via-C-4th-Edition-Code\Ch10-1-Properties.csproj
+		CLR-via-C-4th-Edition-Code\Ch11-1-Events.csproj = CLR-via-C-4th-Edition-Code\Ch11-1-Events.csproj
+		CLR-via-C-4th-Edition-Code\Ch11-1-EventSet.cs = CLR-via-C-4th-Edition-Code\Ch11-1-EventSet.cs
+		CLR-via-C-4th-Edition-Code\Ch11-1-MailManager.cs = CLR-via-C-4th-Edition-Code\Ch11-1-MailManager.cs
+		CLR-via-C-4th-Edition-Code\Ch11-1-TypeWithLotsOfEvents.cs = CLR-via-C-4th-Edition-Code\Ch11-1-TypeWithLotsOfEvents.cs
+		CLR-via-C-4th-Edition-Code\Ch12-1-Generics.cs = CLR-via-C-4th-Edition-Code\Ch12-1-Generics.cs
+		CLR-via-C-4th-Edition-Code\Ch12-1-Generics.csproj = CLR-via-C-4th-Edition-Code\Ch12-1-Generics.csproj
+		CLR-via-C-4th-Edition-Code\Ch13-1-Interfaces.cs = CLR-via-C-4th-Edition-Code\Ch13-1-Interfaces.cs
+		CLR-via-C-4th-Edition-Code\Ch13-1-Interfaces.csproj = CLR-via-C-4th-Edition-Code\Ch13-1-Interfaces.csproj
+		CLR-via-C-4th-Edition-Code\Ch14-1-CharsAndStrings.cs = CLR-via-C-4th-Edition-Code\Ch14-1-CharsAndStrings.cs
+		CLR-via-C-4th-Edition-Code\Ch14-1-CharsAndStrings.csproj = CLR-via-C-4th-Edition-Code\Ch14-1-CharsAndStrings.csproj
+		CLR-via-C-4th-Edition-Code\Ch15-1-EnumsAndBitFlags.cs = CLR-via-C-4th-Edition-Code\Ch15-1-EnumsAndBitFlags.cs
+		CLR-via-C-4th-Edition-Code\Ch15-1-EnumsAndBitFlags.csproj = CLR-via-C-4th-Edition-Code\Ch15-1-EnumsAndBitFlags.csproj
+		CLR-via-C-4th-Edition-Code\Ch16-1-Arrays.cs = CLR-via-C-4th-Edition-Code\Ch16-1-Arrays.cs
+		CLR-via-C-4th-Edition-Code\Ch16-1-Arrays.csproj = CLR-via-C-4th-Edition-Code\Ch16-1-Arrays.csproj
+		CLR-via-C-4th-Edition-Code\Ch17-1-Delegates.cs = CLR-via-C-4th-Edition-Code\Ch17-1-Delegates.cs
+		CLR-via-C-4th-Edition-Code\Ch17-1-Delegates.csproj = CLR-via-C-4th-Edition-Code\Ch17-1-Delegates.csproj
+		CLR-via-C-4th-Edition-Code\Ch18-1-CustomAttributes.cs = CLR-via-C-4th-Edition-Code\Ch18-1-CustomAttributes.cs
+		CLR-via-C-4th-Edition-Code\Ch18-1-CustomAttributes.csproj = CLR-via-C-4th-Edition-Code\Ch18-1-CustomAttributes.csproj
+		CLR-via-C-4th-Edition-Code\Ch19-1-NullableValueTypes.cs = CLR-via-C-4th-Edition-Code\Ch19-1-NullableValueTypes.cs
+		CLR-via-C-4th-Edition-Code\Ch19-1-NullableValueTypes.csproj = CLR-via-C-4th-Edition-Code\Ch19-1-NullableValueTypes.csproj
+		CLR-via-C-4th-Edition-Code\Ch20-1-ExceptionHandling.cs = CLR-via-C-4th-Edition-Code\Ch20-1-ExceptionHandling.cs
+		CLR-via-C-4th-Edition-Code\Ch20-1-ExceptionHandling.csproj = CLR-via-C-4th-Edition-Code\Ch20-1-ExceptionHandling.csproj
+		CLR-via-C-4th-Edition-Code\Ch21-1-GarbageCollection.cs = CLR-via-C-4th-Edition-Code\Ch21-1-GarbageCollection.cs
+		CLR-via-C-4th-Edition-Code\Ch21-1-GarbageCollection.csproj = CLR-via-C-4th-Edition-Code\Ch21-1-GarbageCollection.csproj
+		CLR-via-C-4th-Edition-Code\Ch22-1-AppDomains.cs = CLR-via-C-4th-Edition-Code\Ch22-1-AppDomains.cs
+		CLR-via-C-4th-Edition-Code\Ch22-1-AppDomains.csproj = CLR-via-C-4th-Edition-Code\Ch22-1-AppDomains.csproj
+		CLR-via-C-4th-Edition-Code\Ch23-1-AssemblyLoadingAndReflection.cs = CLR-via-C-4th-Edition-Code\Ch23-1-AssemblyLoadingAndReflection.cs
+		CLR-via-C-4th-Edition-Code\Ch23-1-AssemblyLoadingAndReflection.csproj = CLR-via-C-4th-Edition-Code\Ch23-1-AssemblyLoadingAndReflection.csproj
+		CLR-via-C-4th-Edition-Code\Ch23-2-AddIn_SDKAssembly.cs = CLR-via-C-4th-Edition-Code\Ch23-2-AddIn_SDKAssembly.cs
+		CLR-via-C-4th-Edition-Code\Ch23-2-AddIn_SDKAssembly.csproj = CLR-via-C-4th-Edition-Code\Ch23-2-AddIn_SDKAssembly.csproj
+		CLR-via-C-4th-Edition-Code\Ch23-3-AddIn_AddInTypes.cs = CLR-via-C-4th-Edition-Code\Ch23-3-AddIn_AddInTypes.cs
+		CLR-via-C-4th-Edition-Code\Ch23-3-AddIn_AddInTypes.csproj = CLR-via-C-4th-Edition-Code\Ch23-3-AddIn_AddInTypes.csproj
+		CLR-via-C-4th-Edition-Code\Ch23-4-AddIn_Host.cs = CLR-via-C-4th-Edition-Code\Ch23-4-AddIn_Host.cs
+		CLR-via-C-4th-Edition-Code\Ch23-4-AddIn_Host.csproj = CLR-via-C-4th-Edition-Code\Ch23-4-AddIn_Host.csproj
+		CLR-via-C-4th-Edition-Code\Ch24-1-RuntimeSerialization.cs = CLR-via-C-4th-Edition-Code\Ch24-1-RuntimeSerialization.cs
+		CLR-via-C-4th-Edition-Code\Ch24-1-RuntimeSerialization.csproj = CLR-via-C-4th-Edition-Code\Ch24-1-RuntimeSerialization.csproj
+		CLR-via-C-4th-Edition-Code\Ch25-1-WinRTComponents.cs = CLR-via-C-4th-Edition-Code\Ch25-1-WinRTComponents.cs
+		CLR-via-C-4th-Edition-Code\Ch25-1-WinRTComponents.csproj = CLR-via-C-4th-Edition-Code\Ch25-1-WinRTComponents.csproj
+		CLR-via-C-4th-Edition-Code\Ch26-1-ThreadBasics.cs = CLR-via-C-4th-Edition-Code\Ch26-1-ThreadBasics.cs
+		CLR-via-C-4th-Edition-Code\Ch26-1-ThreadBasics.csproj = CLR-via-C-4th-Edition-Code\Ch26-1-ThreadBasics.csproj
+		CLR-via-C-4th-Edition-Code\Ch27-1-ComputeOps.cs = CLR-via-C-4th-Edition-Code\Ch27-1-ComputeOps.cs
+		CLR-via-C-4th-Edition-Code\Ch27-1-ComputeOps.csproj = CLR-via-C-4th-Edition-Code\Ch27-1-ComputeOps.csproj
+		CLR-via-C-4th-Edition-Code\Ch28-1-IOOps.cs = CLR-via-C-4th-Edition-Code\Ch28-1-IOOps.cs
+		CLR-via-C-4th-Edition-Code\Ch28-1-IOOps.csproj = CLR-via-C-4th-Edition-Code\Ch28-1-IOOps.csproj
+		CLR-via-C-4th-Edition-Code\Ch29-1-PrimitveThreadSync.cs = CLR-via-C-4th-Edition-Code\Ch29-1-PrimitveThreadSync.cs
+		CLR-via-C-4th-Edition-Code\Ch29-1-PrimitveThreadSync.csproj = CLR-via-C-4th-Edition-Code\Ch29-1-PrimitveThreadSync.csproj
+		CLR-via-C-4th-Edition-Code\Ch30-1-HybridThreadSync.cs = CLR-via-C-4th-Edition-Code\Ch30-1-HybridThreadSync.cs
+		CLR-via-C-4th-Edition-Code\Ch30-1-HybridThreadSync.csproj = CLR-via-C-4th-Edition-Code\Ch30-1-HybridThreadSync.csproj
+		CLR-via-C-4th-Edition-Code\CLR via CS.sln = CLR-via-C-4th-Edition-Code\CLR via CS.sln
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter03", "Chapter03", "{2D7AC127-0D7F-4F2D-95F7-07B24D37C8DB}"
+	ProjectSection(SolutionItems) = preProject
+		GACUtil.exe.txt = GACUtil.exe.txt
+		SN.exe.txt = SN.exe.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch03_02AboutAssemblyName", "Ch03_02AboutAssemblyName\Ch03_02AboutAssemblyName.csproj", "{9A82D807-0818-4990-9B6C-5C2781D64305}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter04", "Chapter04", "{6CA8B389-0131-47BC-887E-32AB8F7660B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter05", "Chapter05", "{A04DCE0F-B001-4B7B-A455-71F48A562565}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter08", "Chapter08", "{3083D2E9-6B73-47BE-AA9E-582ED9AFF497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeType", "SomeType\SomeType.csproj", "{865FB6E9-3C78-46E5-B8B4-83B04C4F52C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter09", "Chapter09", "{2DE17EEC-D793-4EC1-BB70-C23BEF5D0DA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter09", "Chapter09\Chapter09.csproj", "{504CA5F3-522E-40F1-96BD-213B3906FF18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter10", "Chapter10\Chapter10.csproj", "{E3C667DF-B1AF-4AA3-870D-3E04AB659B02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestASM", "TestASM\TestASM.csproj", "{7089DA47-4358-4027-A833-C42069D2F873}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter21", "Chapter21", "{0342C4F7-592E-40C8-9D1B-8A104B1E07D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter21", "Chapter21\Chapter21.csproj", "{35F137C5-F59B-43BA-96AA-C3329D0D3ACA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter22", "Chapter22", "{22CF8083-9616-443C-BB61-913BC5051153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter22", "Chapter22\Chapter22.csproj", "{99506259-2F5F-487F-AA28-2CA64DC0F249}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wintellect.HostSDK", "Wintellect.HostSDK\Wintellect.HostSDK.csproj", "{EE294269-6612-408C-ADB9-20C8E18D8C96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wintellect.AddInTypes", "Wintellect.AddInTypes\Wintellect.AddInTypes.csproj", "{DAA3253E-E888-4C31-9B30-5EEC6CD6333F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{179DD5E2-62AF-4C72-9759-80E2F7C43F27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter23", "Chapter23", "{D2EA44D4-F9FB-49B5-8891-344F5EE896DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter23", "Chapter23\Chapter23.csproj", "{A0717640-E35A-4F86-9C75-DBD1B0C65CF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter24", "Chapter24", "{FBF48564-9E8C-4FBE-A1A5-2B605670A142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter24", "Chapter24\Chapter24.csproj", "{241D12C8-D887-41B7-8AF5-B21B5C407908}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter27", "Chapter27", "{6D686005-34FC-4954-82D4-CD159A375ADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter27", "Chapter27\Chapter27.csproj", "{56EBA9F8-F6CE-4CE2-88F7-6727A648DD8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C21B68A-60F4-4CD8-BE35-CBF3A12C0A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C21B68A-60F4-4CD8-BE35-CBF3A12C0A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C21B68A-60F4-4CD8-BE35-CBF3A12C0A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C21B68A-60F4-4CD8-BE35-CBF3A12C0A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A82D807-0818-4990-9B6C-5C2781D64305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A82D807-0818-4990-9B6C-5C2781D64305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A82D807-0818-4990-9B6C-5C2781D64305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A82D807-0818-4990-9B6C-5C2781D64305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{865FB6E9-3C78-46E5-B8B4-83B04C4F52C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{865FB6E9-3C78-46E5-B8B4-83B04C4F52C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{865FB6E9-3C78-46E5-B8B4-83B04C4F52C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{865FB6E9-3C78-46E5-B8B4-83B04C4F52C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{504CA5F3-522E-40F1-96BD-213B3906FF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{504CA5F3-522E-40F1-96BD-213B3906FF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{504CA5F3-522E-40F1-96BD-213B3906FF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{504CA5F3-522E-40F1-96BD-213B3906FF18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3C667DF-B1AF-4AA3-870D-3E04AB659B02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C667DF-B1AF-4AA3-870D-3E04AB659B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C667DF-B1AF-4AA3-870D-3E04AB659B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C667DF-B1AF-4AA3-870D-3E04AB659B02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7089DA47-4358-4027-A833-C42069D2F873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7089DA47-4358-4027-A833-C42069D2F873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7089DA47-4358-4027-A833-C42069D2F873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7089DA47-4358-4027-A833-C42069D2F873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F137C5-F59B-43BA-96AA-C3329D0D3ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F137C5-F59B-43BA-96AA-C3329D0D3ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F137C5-F59B-43BA-96AA-C3329D0D3ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F137C5-F59B-43BA-96AA-C3329D0D3ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99506259-2F5F-487F-AA28-2CA64DC0F249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99506259-2F5F-487F-AA28-2CA64DC0F249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99506259-2F5F-487F-AA28-2CA64DC0F249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99506259-2F5F-487F-AA28-2CA64DC0F249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE294269-6612-408C-ADB9-20C8E18D8C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE294269-6612-408C-ADB9-20C8E18D8C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE294269-6612-408C-ADB9-20C8E18D8C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE294269-6612-408C-ADB9-20C8E18D8C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA3253E-E888-4C31-9B30-5EEC6CD6333F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA3253E-E888-4C31-9B30-5EEC6CD6333F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA3253E-E888-4C31-9B30-5EEC6CD6333F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA3253E-E888-4C31-9B30-5EEC6CD6333F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{179DD5E2-62AF-4C72-9759-80E2F7C43F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{179DD5E2-62AF-4C72-9759-80E2F7C43F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{179DD5E2-62AF-4C72-9759-80E2F7C43F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{179DD5E2-62AF-4C72-9759-80E2F7C43F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0717640-E35A-4F86-9C75-DBD1B0C65CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0717640-E35A-4F86-9C75-DBD1B0C65CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0717640-E35A-4F86-9C75-DBD1B0C65CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0717640-E35A-4F86-9C75-DBD1B0C65CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{241D12C8-D887-41B7-8AF5-B21B5C407908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241D12C8-D887-41B7-8AF5-B21B5C407908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241D12C8-D887-41B7-8AF5-B21B5C407908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241D12C8-D887-41B7-8AF5-B21B5C407908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56EBA9F8-F6CE-4CE2-88F7-6727A648DD8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56EBA9F8-F6CE-4CE2-88F7-6727A648DD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56EBA9F8-F6CE-4CE2-88F7-6727A648DD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56EBA9F8-F6CE-4CE2-88F7-6727A648DD8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C21B68A-60F4-4CD8-BE35-CBF3A12C0A75} = {941B2431-6A78-429F-884B-3F628EA60C7C}
+		{9A82D807-0818-4990-9B6C-5C2781D64305} = {2D7AC127-0D7F-4F2D-95F7-07B24D37C8DB}
+		{865FB6E9-3C78-46E5-B8B4-83B04C4F52C8} = {3083D2E9-6B73-47BE-AA9E-582ED9AFF497}
+		{504CA5F3-522E-40F1-96BD-213B3906FF18} = {2DE17EEC-D793-4EC1-BB70-C23BEF5D0DA5}
+		{35F137C5-F59B-43BA-96AA-C3329D0D3ACA} = {0342C4F7-592E-40C8-9D1B-8A104B1E07D4}
+		{99506259-2F5F-487F-AA28-2CA64DC0F249} = {22CF8083-9616-443C-BB61-913BC5051153}
+		{EE294269-6612-408C-ADB9-20C8E18D8C96} = {22CF8083-9616-443C-BB61-913BC5051153}
+		{DAA3253E-E888-4C31-9B30-5EEC6CD6333F} = {22CF8083-9616-443C-BB61-913BC5051153}
+		{179DD5E2-62AF-4C72-9759-80E2F7C43F27} = {22CF8083-9616-443C-BB61-913BC5051153}
+		{A0717640-E35A-4F86-9C75-DBD1B0C65CF7} = {D2EA44D4-F9FB-49B5-8891-344F5EE896DF}
+		{241D12C8-D887-41B7-8AF5-B21B5C407908} = {FBF48564-9E8C-4FBE-A1A5-2B605670A142}
+		{56EBA9F8-F6CE-4CE2-88F7-6727A648DD8B} = {6D686005-34FC-4954-82D4-CD159A375ADB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F426C71-9EF4-44CF-A501-1CD87AFC04E7}
+	EndGlobalSection
+EndGlobal
